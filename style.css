@@ -4,10 +4,12 @@ body{
 }
 section{
     display: flex;
+    padding-top: 4%;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 button{
     margin-top: 25px;
@@ -18,7 +20,10 @@ button{
     border: none;
 }
 .top-banner{
-    padding-top: 4%;
     background-image: url(./top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big{
+    margin-top: 1%;
 }
