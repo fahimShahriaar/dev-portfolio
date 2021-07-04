@@ -1,0 +1,24 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+button{
+    margin-top: 25px;
+    background-image: linear-gradient(#FF2278, #FF4790);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+}
+.top-banner{
+    padding-top: 4%;
+    background-image: url(./top-banner.png);
+    background-repeat: no-repeat;
+}
