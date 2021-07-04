@@ -2,7 +2,7 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
 }
-section{
+.top-banner, .dream-big, .experience-div{
     display: flex;
     padding-top: 4%;
 }
@@ -26,4 +26,19 @@ button{
 
 .dream-big{
     margin-top: 1%;
+}
+.experience-item{
+    box-shadow: 10px 10px 15px lightgray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(#fa82b2, #FF2278);
+    border-image-slice: 30;
+    padding: 2%;
+}
+footer{
+    text-align: center;
+    margin-bottom: 30px;
 }
